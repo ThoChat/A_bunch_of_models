@@ -1,0 +1,1 @@
+test_cross: exits(60s)=2, flow=0.6666666666666666, rho(45s)=None, pink_out=0, crashed=None, 18s wall
