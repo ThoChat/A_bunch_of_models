@@ -133,10 +133,8 @@ import sys
 _REPO = pathlib.Path.cwd().parent
 _JP = _REPO / "jupedsim"
 for _d in (
-    _JP / "python_modules" / "jupedsim",
-    _JP / "python_modules" / "jupedsim_visualizer",
     _JP / "python_modules" / "jupedsim_examples",
-    _JP / "build" / "lib",
+    _JP / "build" / "stage",
 ):
     _p = str(_d.resolve())
     if _p not in sys.path:

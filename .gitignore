@@ -236,3 +236,4 @@ all_papers
 *.flag
 results/
 smoke_results/
+.vscode/*
